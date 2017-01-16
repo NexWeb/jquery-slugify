@@ -9,4 +9,7 @@ inputs:
 - name: jquery-slugify-repo
 
 run:
-  path: npm install && npm test
+  path: sh
+  args:
+    npm install
+    npm test
