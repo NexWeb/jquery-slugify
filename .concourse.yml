@@ -11,5 +11,5 @@ inputs:
 run:
   path: sh
   args:
-    npm install
-    npm test
+    - npm install
+    - npm test
